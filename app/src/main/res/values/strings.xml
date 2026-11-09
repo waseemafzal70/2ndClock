@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Second Clock</string>
+    <string name="eyebrow">PIXEL-INSPIRED</string>
+    <string name="screen_title">Second Clock</string>
+    <string name="screen_description">A small, draggable clock that stays on top of your apps and follows your Android time format.</string>
+    <string name="preview_time">9:41</string>
+    <string name="preview_caption">  ·  draggable overlay</string>
+    <string name="permissions_title">Permissions</string>
+    <string name="overlay_permission_allowed">Display over other apps: allowed</string>
+    <string name="overlay_permission_needed">Display over other apps: permission needed</string>
+    <string name="button_allow_overlay">Allow display over other apps</string>
+    <string name="button_manage_overlay">Manage display permission</string>
+    <string name="button_start_overlay">Start clock overlay</string>
+    <string name="button_stop_overlay">Stop clock overlay</string>
+    <string name="overlay_status_running">The clock overlay is running.</string>
+    <string name="overlay_status_off">The overlay is currently off.</string>
+    <string name="position_controls_title">Clock position</string>
+    <string name="position_controls_description">Tap an arrow to move the clock 8 dp. Position controls are available while the overlay is running.</string>
+    <string name="move_up">Move clock up</string>
+    <string name="move_left">Move clock left</string>
+    <string name="move_right">Move clock right</string>
+    <string name="move_down">Move clock down</string>
+    <string name="system_bar_mode_title">Allow clock in status-bar area</string>
+    <string name="system_bar_mode_description">Allows the clock to be positioned in the top system-bar region. Android may still draw system icons above the overlay, depending on your device.</string>
+    <string name="clock_font_title">Clock font</string>
+    <string name="clock_font_button">Clock font: %1$s</string>
+    <string name="shadow_enabled_title">Enable subtle dark shadow</string>
+    <string name="shadow_opacity_value">Shadow opacity: %1$d%%</string>
+    <string name="show_ampm_title">Show AM/PM</string>
+    <string name="shadow_opacity_description">Adjust the shadow opacity.</string>
+    <string name="overlay_start_error">Could not start the clock overlay: %1$s</string>
+    <string name="overlay_limitation">This is a separate floating clock; it does not replace the system clock. Hold and drag the time to move it. The status-bar-area option is best-effort and does not guarantee that the overlay appears above system icons.</string>
+    <string name="overlay_content_description">Movable clock. Hold and drag to reposition. Tap to open Second Clock.</string>
+    <string name="notification_channel_name">Clock overlay</string>
+    <string name="notification_title">Clock overlay is on</string>
+    <string name="notification_text">The clock stays visible over other apps. Tap Stop to turn it off.</string>
+    <string name="notification_stop">Stop</string>
+    <string-array name="clock_font_names">
+        <item>Pixel system (default)</item>
+        <item>Sans-serif</item>
+        <item>Sans-serif bold</item>
+        <item>Serif</item>
+        <item>Monospace</item>
+    </string-array>
+</resources>
